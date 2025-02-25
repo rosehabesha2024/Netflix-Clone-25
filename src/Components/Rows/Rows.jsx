@@ -37,7 +37,7 @@ function Rows({ fetchUrl, title, isLargeRow }) {
     }
   };
   const opts = {
-    //this is to means option the measeure are the size of the vidoe
+    //this means option the measeure are the size of the vidoe
     height: "390",
     width: "100%",
     playerVars: {
@@ -48,7 +48,7 @@ function Rows({ fetchUrl, title, isLargeRow }) {
     <>
       <div className="row">
         <h1>{title}</h1>
-        <div className="Row__Posters">
+        <div className="row__posters">
           {movie?.map((movie, index) => (
             <img
               onClick={
